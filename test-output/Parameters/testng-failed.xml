@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameters]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QA(failed)">
+    <parameter name="firstname" value="Uma"/>
+    <parameter name="lastname" value="Premkumar"/>
+    <classes>
+      <class name="com.decIpt.chromeTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="stepfield" invocation-numbers="0"/>
+          <include name="closeBrowsee"/>
+          <include name="fields" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.decIpt.chromeTest -->
+    </classes>
+  </test> <!-- QA(failed) -->
+</suite> <!-- Failed suite [Parameters] -->

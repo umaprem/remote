@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-23T20:38:03 IST" name="BuildOne" finished-at="2023-12-23T20:38:08 IST" duration-ms="4853">
+    <groups>
+    </groups>
+    <test started-at="2023-12-23T20:38:03 IST" name="QAEnvironment" finished-at="2023-12-23T20:38:08 IST" duration-ms="4853">
+      <class name="com.decIpt.TestRunner">
+        <test-method signature="chromeExecution()[pri:0, instance:com.decIpt.TestRunner@c88a337]" started-at="2023-12-23T20:38:03 IST" name="chromeExecution" finished-at="2023-12-23T20:38:08 IST" duration-ms="4807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeExecution -->
+      </class> <!-- com.decIpt.TestRunner -->
+    </test> <!-- QAEnvironment -->
+  </suite> <!-- BuildOne -->
+</testng-results>

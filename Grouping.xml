@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuitegroupFile">
+  <test thread-count="5" name="TestQa">
+	  <parameter name="firstname" value="Manju"></parameter>
+	  <parameter name="lastname" value="4536"></parameter>
+	  <groups>
+		  <run>
+			  <include name="edge"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="com.decIpt.edgeTest"/>
+    </classes>
+  </test> <!-- TestQa -->
+</suite> <!-- SuitegroupFile -->
